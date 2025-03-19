@@ -1,0 +1,17 @@
+import {create} from 'zustand';
+
+interface {{pascalCase name}}State {
+
+
+  reset: () => void;
+}
+
+// Création du store
+export const use{{pascalCase name}} = create<{{pascalCase name}}State>(set => ({
+ 
+  reset: () => {
+    set({
+
+    });
+  },
+}));
